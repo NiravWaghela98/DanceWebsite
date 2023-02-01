@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 28px;
+    margin-right: 40px;
+
+}
+
+#logo img {
+    height: 42px;
+    filter: invert(1);
+
+}
+
+#navbar {
+    background: linear-gradient(90deg, rgba(0, 19, 36, 0.8883928571428571) 0%, rgba(9, 66, 121, 1) 35%, rgba(0, 232, 255, 1) 100%);
+    padding: 18px 14px;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 13px 30px;
+    color: white;
+    font-weight: bold;
+
+}
+
+#navbar li a:hover {
+    color: black;
+
+}
+
+
+#introSection {
+    padding-bottom: 40px;
+    color: rgb(245, 5, 5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../static/bg.jpeg.jpg)no-repeat center center/cover;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 65px;
+    height: 425px;
+    background-color: red;
+    opacity: 0.6;
+
+}
+
+#introSection div.small {
+    font-size: 52px;
+    padding: 5px;
+
+}
+
+
+
+/* #missionSection  {
+    height: 300px;
+    width: 67%;
+    margin: auto;
+    
+    
+} */
+#missionSection {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#missionSection h2 {
+
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 22%;
+    height: 210px;
+    margin: 23px 20px;
+
+}
+
+#flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 210px;
+    margin: 23px 20px;
+    display: inline-block;
+} */
+.card h3 {
+    text-align: center;
+    margin: 23px 12px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 100px;
+    padding: 0px 0px;
+
+}
+
+.card-img img {
+    height: inherit;
+    /* inherit se img apne aap box ke andar chala jata hai */
+
+
+}
+
+.card-content {
+    padding: 0px 10px;
+}
+
+.card-content p {
+    font-size: 18px;
+
+}
+
+
+#sponserSection {
+    height: 300px;
+    background-color: rgb(68 128 185);
+
+}
+
+#sponserSection h2 {
+
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 30px;
+
+}
+
+#sponsers {
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#sponser {
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spimage {
+    height: 112px;
+    margin: 63px 20px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-family: 'Baloo Paaji 2', cursive;
+}

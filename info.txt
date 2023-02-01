@@ -1,0 +1,17 @@
+|   //-        nav#navbar.top
+      //-     ul
+      //-       div#logo
+      //-         img(src="/static/img/logo.png")
+      //-         | HDA
+      //-       li #[a(href="/") Home]                                          
+      //-       li #[a(href="/") About]
+      //-       li #[a(href="/") Services]
+      //-       li #[a(href="/") Class Information]
+      //-       li #[a(href="/") Contact Us]  phele yahape tha ye hime se utha ke base.pug me daldiya 
+
+
+
+      base.pug
+       //-  block script ka matlab yeh hai ki koi script add karna chate ho to dal sakte hai
+    //- block foot ka matlab hai ki footer add karne ke liye yaha pe kar sakte ho
+        //-   block content ka matlab hai ki koi content add kar sakte hai

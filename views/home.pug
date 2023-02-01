@@ -1,0 +1,50 @@
+//- jo base ka layout hai wo idhar home me fill hogi extends ka matlab hai ki base wali template ko bhar rahe hai isme aur base.pug likh ke wo include kardiya hai
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+
+block content
+    section#introSection 
+        
+        div Welcome to Golmaal's Dance Academy 
+        div.small  Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2 Our Mission
+          div#flex
+            div.card
+              h3 Dance Perfection
+              div.card-box
+                    div.card-img
+                          img(src="/static/img/logo1.png")
+                    div.card-content
+                          p This is the best Dance Academy  of the Universe    
+            div.card
+              h3 Dance the way you like
+              div.card-box
+                    div.card-img
+                          img(src="/static/img/logo2.png")
+                    div.card-content
+                          p This is the best Dance Academy  of the Universe  
+                
+            div.card
+              h3 Expert Teaching
+              div.card-box
+                    div.card-img
+                          img(src="/static/img/logo2.png")
+                    div.card-content
+                          p This is the best Dance Academy  of the Universe  
+
+    section#sponserSection 
+        h2 Our sponsers
+        div#sponser
+            img(class="spimage", src="/static/client imgs/hp.png.png",alt="hpimage")
+            img( class="spimage", src="/static/client imgs/ms.png.png",alt="hpimage" )
+            img( class="spimage", src="/static/client imgs/pngwing.com (1).png",alt="hpimage")
+            img( class="spimage",src="/static/client imgs/skype.png.png",alt="hpimage" )

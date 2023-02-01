@@ -1,0 +1,88 @@
+//- 6th step
+//- index.pug
+doctype html
+//- html
+//-   head
+//-     style inded ka matlab hai ki 3 ke bichme side ke space
+html
+  head
+    title Harry Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top
+          ul
+            div#logo
+              img(src="/static/img/logo.png")
+              | HDA
+            li #[a(href="/") Home]                                          
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Information]
+            li #[a(href="/") Contact Us]
+    
+
+    section#introSection 
+        
+        div Welcome to Golmaal's Dance Academy 
+        div.small  Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2 Our Mission
+          div#flex
+            div.card
+              h3 Dance Perfection
+              div.card-box
+                    div.card-img
+                          img(src="/static/img/logo1.png")
+                    div.card-content
+                          p This is the best Dance Academy  of the Universe    
+            div.card
+              h3 Dance the way you like
+              div.card-box
+                    div.card-img
+                          img(src="/static/img/logo2.png")
+                    div.card-content
+                          p This is the best Dance Academy  of the Universe  
+                
+            div.card
+              h3 Expert Teaching
+              div.card-box
+                    div.card-img
+                          img(src="/static/img/logo2.png")
+                    div.card-content
+                          p This is the best Dance Academy  of the Universe  
+
+    section#sponserSection 
+        h2 Our sponsers
+        div#sponser
+            img(class="spimage", src="/static/client imgs/hp.png.png",alt="hpimage")
+            img( class="spimage", src="/static/client imgs/ms.png.png",alt="hpimage" )
+            img( class="spimage", src="/static/client imgs/pngwing.com (1).png",alt="hpimage")
+            img( class="spimage",src="/static/client imgs/skype.png.png",alt="hpimage" )
+
+    footer#footer 
+        | Copyright © 2023 Harrydanceacademy.com | All right  reserved
+        
+    
+    
+    
+    
+    
+    
+    script
+      include ../static/index.js
+
+
+
+
+
+
+
+
+
+
+
+//- hamesa space do aage piche se taki error nah aaye
+ //-a wala tag ke andar aise likho         li #[a(href="/") About]  
+//-  boiler plate agar ! dalke banana hai to niche vs code ke terminal ke baju me pug ka option waha se pug ko change karke html karo ya fir yehi upar wala hi use karo doctype wala
